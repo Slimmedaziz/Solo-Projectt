@@ -5,22 +5,50 @@
     <link rel="stylesheet" href="proj.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
-    <title>UCL DRAW</title>
+    <title>TIC TAC TOE</title>
 </head>
 <body>
-    <script src="proj.js"></script>
-    <div class="container">
-        <div class="card" data-team="Real Madrid">Real Madrid</div>
-        <div class="card" data-team="Liverpool">Liverpool</div>
-        <div class="card" data-team="Barcelona">Barcelona</div>
-        <div class="card" data-team="Dortmund">Dortmund</div>
-        <div class="card" data-team="Inter Milan">Inter Milan</div>
-        <div class="card" data-team="FC Bayern">FC Bayern</div>
-        <div class="card" data-team="MAN City">MAN City</div>
-        <div class="card" data-team="PSG">PSG</div>
-      </div>
-      <div id="matchup"></div>
-  
+   <div id="all-content">
+    <div id="main">
+        <div id="board-wrapper">
+            <div id="header"> 
+                <h3> O-Turn </h3>
+            </div>
+            <div id="container">
+                <div class="map" value="1">
+                    <h3 class="map.content"></h3>
+                </div>
+                <div class="map" value="2">
+                    <h3 class="map.content"></h3>
+                </div>
+                <div class="map" value="3" >
+                    <h3 class="map.content"></h3>
+                </div> 
+                <div class="map" value="4">
+                    <h3 class="map.content"></h3>
+                </div>
+                <div class="map" value="5" >
+                    <h3 class="map.content"></h3>
+                </div>
+                <div class="map" value="6">
+                    <h3 class="map.content"></h3>
+                </div> 
+                <div class="map" value="7" >
+                    <h3 class="map.content"></h3>
+                </div>
+                <div class="map" value="8">
+                    <h3 class="map.content"></h3>
+                </div>
+                <div class="map" value="9">
+                    <h3 class="map.content"></h3>
+                </div>
+            </div> 
+            <div id="footer">
+                <button class="action btn" id="reset-btn">RESET</button>
+            </div> 
+        </div>
+    </div>
+   </div>
 </body>
-
+<script src="proj.js"></script>
 </html>
