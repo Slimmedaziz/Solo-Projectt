@@ -35,15 +35,15 @@ for (const item of items) {
   })
   function evaluate(){
 
-    if (//rows
+    if (
       (table[0]===table[1] && table[1]===table[2]) ||
       (table[3]===table[4] && table[4]===table[5]) ||
       (table[6]===table[7] && table[7]===table[8]) ||
-      //cols
+      
       (table[0]===table[3] && table[3]===table[6]) ||
       (table[1]===table[4] && table[4]===table[7]) ||
       (table[2]===table[5] && table[5]===table[8]) ||
-      //diag
+    
       (table[0]===table[4] && table[4]===table[8]) ||
       (table[2]===table[4] && table[4]===table[6]) 
       ){
