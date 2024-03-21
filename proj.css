@@ -1,6 +1,6 @@
 #header{
     background-color: #4d4d4d;
-    color: white;
+    color: rgba(200, 224, 214, 0.904);
     border-radius: 30px;
     box-shadow: 0px 5px 13px rgba(0,0,0,0.3) ;
     width: 60%;
@@ -33,7 +33,7 @@
   flex-direction: column ;
 }
 #container{
-background-color: #f0db4f;
+background-color: #443f1b;
 display: grid;
 grid-template-columns: auto auto auto;
 padding: 50px;
@@ -47,7 +47,7 @@ height: 80%;
 .cell{
    
     padding: 20px;
-    border: #1b1b1b solid 3px;
+    border: #eb6a6a solid 3px;
     display: flex ;
     justify-content: center;
     align-items: center;
@@ -56,17 +56,17 @@ height: 80%;
 }
 
 .cell:hover {
-    background-color: gray ;
+    background-color: rgb(180, 180, 180) ;
 }
 
 .action-btn{
     padding: 8px 30px ;
     font-size: 35px ;
     border-radius: 35px;
-    box-shadow: 0px 5px 13px rgba(0,0,0,0.4);
+    box-shadow: 0px 5px 13px rgba(233, 144, 144, 0.4);
     margin-top: 12px;
     border: none;
-    background-color: blueviolet;
+    background-color: rgb(185, 170, 31);
     transition: all 0.2s;
     cursor: pointer;
     font-family: "Coiny", system-ui;
