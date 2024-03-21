@@ -54,7 +54,7 @@ for (const item of items) {
           Winner = "X";
         }
         finished = true
-        alert(`${Winner} Won!`)
+        alertify.alert(`${Winner} Won!`)
 
         
     }
@@ -66,7 +66,7 @@ for (const item of items) {
     }
     if(draw){
       finished = true
-      alert("Draw")
+      alertify.alert("Draw")
     }
   }
 }
