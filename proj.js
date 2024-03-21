@@ -30,6 +30,7 @@ for (const item of items) {
       currentTurn="O"
      }
      else currentTurn="X"
+     document.getElementById("command").innerHTML = `${currentTurn} turn `
 
   })
   function evaluate(){
